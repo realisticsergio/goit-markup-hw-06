@@ -16,20 +16,20 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     
-        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!-- #region zagolovok -->
-    <header class="ppage-header">
+    <header class="page-header">
         <div class="container site-header">
         <nav class="header-nav">
             <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
             <ul class="nav-list">
                 <li class="nav-item">
                     <a class="nav-link current" href="./index.html">Studio</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
             </ul>
         </nav>
         <address class="contacts">
@@ -40,19 +40,29 @@
                 </li>
             </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open>
+            <svg class="burger-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-heroicons-solid"></use>
+            </svg>
+        </button>
         </div>
     </header>
+
     <!-- #end zagolovok -->
     <main>
         <!--#Header-->
+
         <section class="hero-section">
             <div class="container">
             <h1 class="header">Effective Solutions for Your Business</h1>
             <button type="button" class="main-button">Order Service</button>
             </div>
         </section>
+    
         <!--#end Header-->
+
         <!--#1-section-->
+
         <section class="first-section">
             <div class="container">
             <h2 class="visually-hidden">Bisness-progect</h2>
@@ -101,8 +111,10 @@
             </ul>
             </div>
         </section>
+    
         <!--#end-1-section-->
         <!--#2 section-->
+
         <section class="team-section">
             <div class="container">
             <h2 class="section-title">Our Team</h2>
@@ -271,8 +283,10 @@
             </ul>
             </div>
         </section>
+   
         <!--#end-2-section-->
         <!--# 3-section-->
+<!--
         <section class="our-section">
             <div class="container">
             <h2 class="section-title">Our Portfolio</h2>
@@ -346,9 +360,12 @@
             </ul>
             </div>
         </section>
+    -->
         <!--#end-3-section-->
     </main>
+
     <!--#footter-->
+    <!--
     <footer class="footer-page">
         <div class="container footer-cub">
             <div class="logo-section">
@@ -408,8 +425,12 @@
       </div>
 
     </footer>
+    -->
 <!--#end footter-->
-<div class="backdrop is-open">
+
+<!--#modal windous-->
+<!--
+<div class="hidden backdrop is-open">
 <div class="modal">
     <button type="button" class="sent-button">
         <svg class="svg-sent-button" width="8" height="8">
@@ -475,6 +496,9 @@
 </form>
 </div>
 </div>
+-->
+<!--#end modal windous-->
+
 </body>
 
 </html>
