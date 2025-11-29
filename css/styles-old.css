@@ -152,6 +152,8 @@
 /*<--#end-1-section-->*/
 
 /*<--#end-2-section-->*/
+
+/*<--
 .team-section {
     background-color: #F4F4FD;
     padding: 120px 0 120px
@@ -229,13 +231,13 @@
             height: 16px;
             fill: #f4f4fd;
             transition: fill 250ms ease-in-out;
-        }-->*/
-    
+        }-->*//*<--
+       
 .icon-list .link:hover,
 .icon-list .link:focus {
             background-color: #404bbf;
         }
-
+ -->*/
 
 /*<--#end-2-section-->*/
 
