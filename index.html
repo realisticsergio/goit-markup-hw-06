@@ -61,9 +61,9 @@
       </div>
       <!-- modalka/mobilna -->
 
-      <div class="mobile-menu is-Open">
+      <div class="mobile-menu is-open" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
+          <button class="mobile-menu-close" data-menu-close>
             <svg class="modal-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-ixs"></use>
             </svg>
@@ -156,7 +156,9 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="header">Effective Solutions for Your Business</h1>
-          <button type="button" class="main-button">Order Service</button>
+          <button type="button" class="main-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -837,10 +839,10 @@
 
     <!--#modal windous-->
 
-    <div class="backdrop">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
         <button type="button" class="sent-button">
-          <svg class="svg-sent-button" width="8" height="8">
+          <svg class="svg-sent-button" width="8" height="8" data-modal-close>
             <use href="./images/icons.svg#icon-ixs"></use>
           </svg>
         </button>
@@ -931,7 +933,8 @@
         </form>
       </div>
     </div>
-
     <!--#end modal windous-->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
